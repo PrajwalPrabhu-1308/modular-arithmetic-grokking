@@ -1,17 +1,3 @@
-
-"""
-PRIORITY 1: Quick Validation with Test Accuracy
-================================================
-Tests ONE critical experiment with train/test split to see if we have
-true grokking (generalization) or just memorization.
-
-Experiment: complexity curriculum, mixed task, seed 42
-Time: ~30 minutes
-Result: Tells you if test accuracy generalizes or stays low
-
-Just run: result = run_test_accuracy_experiment()
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
